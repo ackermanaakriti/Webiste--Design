@@ -1,0 +1,25 @@
+.mainContactus--wrapper
+{
+    padding: 40px 10px;
+    background: rgb(241,241,241);
+    background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(236,238,239,1) 4%,
+     rgba(155,184,212,1) 68%, rgba(17,98,179,1) 100%);
+     padding: 40px;
+}
+.mainContactus--img img 
+{
+    height: 350px;
+    margin:auto;
+    display: flex;
+    padding:20px;
+}
+.mainContactus--img h1 
+{
+    font-size: 45px;
+    text-align: center;
+    margin:3px;
+    letter-spacing: 0.5px;
+}
+.mainContactus--img span{
+    color:rgb(244, 164, 17);
+}

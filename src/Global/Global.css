@@ -1,0 +1,37 @@
+.navbar--wrapper
+{
+   
+    padding:10px;
+    background: rgb(241,241,241);
+    background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(236,238,239,1) 0%, rgba(128,177,228,1) 53%, rgba(90,154,218,1) 67%, rgba(20,101,182,1) 100%, rgba(162,190,217,1) 100%, rgba(17,98,179,1) 100%);
+}
+.logo--container img
+{
+  height: 40px;
+  padding: 8px;
+}
+.navbar--wrapper ul 
+{
+    display: flex;
+     letter-spacing: 1.7px;
+    justify-content: end;
+   
+}
+.navbar--wrapper li 
+{
+    list-style: none;
+  color:white;
+    font-size: 20px;
+    padding: 2px 20px;
+    text-decoration: none;
+}
+.navbar--wrapper ul li:hover 
+{
+  border-bottom: 2px solid white;
+  background-color:  rgba(90,154,218,1) ;
+}
+.navbar--wrapper ul li Link{
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,52 @@
+
+.news-card--wrapper ul 
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.news-card--wrapper ul li 
+{
+    text-decoration: none;
+    list-style: none;
+    flex: 0 0 calc(33.33% - 20px);
+    padding: 20px 10px ;
+}
+.news-card--wrapper ul img 
+{
+    height: 200px;
+    margin:auto;
+    display: flex;
+}
+.news-card--wrapper h3 
+{
+    padding:  5px 30px;
+    margin:2px;
+    text-align: center;
+}
+.news-card--wrapper p 
+{
+    padding: 0px 30px;
+    margin:2px;
+    text-align: center;
+}
+.news-card--wrapper button 
+{
+    
+  padding:10px;
+justify-content: center;
+align-items: center;
+display: flex;
+  margin:auto;
+    border:none;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color:rgb(244, 164, 17) ;
+    color:white;
+}
+.news-card--wrapper ul button a
+{
+text-decoration: none;
+
+color:white;
+}

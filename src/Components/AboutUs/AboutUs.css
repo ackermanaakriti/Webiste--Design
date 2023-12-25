@@ -1,0 +1,36 @@
+.whychooseus--container {
+
+    padding: 40px 10px;
+    text-align: center;
+}
+.card--wrapper 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.section--header
+{
+    color:rgb(244, 164, 17);
+    font-size: 45px;
+    margin:10px 0px;
+    letter-spacing: 0.6px;
+}
+.chooseus--card
+{
+ padding: 30px;
+ overflow: hidden;
+}
+.chooseus--img img
+{
+  height: 200px;
+}
+.chooseus--card--content h2
+{
+    margin:3px;
+
+}
+.chooseus--card--content p 
+{
+    padding: 10px;
+    text-overflow:ellipsis;
+}
